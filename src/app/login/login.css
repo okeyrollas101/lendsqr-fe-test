@@ -1,0 +1,112 @@
+.login{
+   display: flex;
+   max-width: 1440px;
+   max-height: 900px;
+   gap: 130px;
+   justify-content: center;
+}
+.left_login{
+    display: flex;
+    flex-direction: column;
+    flex-basis: 50%;
+}
+.right_login{
+    flex-basis: 50%;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    margin-top: 85px;
+}
+
+.group_icon{
+    margin-top: 106px;
+    margin-left: 97px;
+}
+.pablo_sign{
+    margin-top: 210px;
+    margin-left: 67px;
+    margin-bottom: 300px;
+}
+.right_login h3{
+   font-family: 'Avenir Next', sans-serif;
+   font-size: 40px;
+   font-weight: 700;
+   line-height: 54.64px;
+   letter-spacing: -0.04em;
+   text-align: left;
+   color:#213F7D;
+   width: 183px;
+   margin-top: 215px;
+   margin-bottom: -30px;
+}
+.right_login p{
+    width: 194px;
+    font-family: 'Avenir Next', sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 27.32px;
+    text-align: left;
+    color: #545F7D;
+    margin-bottom: 40px;
+}
+.input{
+    position: relative;
+    max-width: 447px;
+}
+.password_input{
+    margin-top: 20px;
+}
+
+.email_input,.password_input{
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    border: 2px solid #545F7D26;
+}
+.toggle_button{
+    font-family: 'Avenir Next', sans-serif;
+    font-weight: 600;
+    width: 49.41px;
+    height: 12.5px;
+    color:#39CDCC;
+    position: absolute;
+    transform: translateY(-50%);
+    right: 3px;
+    top: 79%;
+    background: none;
+    line-height: 16.39px;
+    letter-spacing: 0.1em;
+    border: none;
+    opacity: 0px;
+    cursor: pointer;
+    font-size: 12px;
+    text-align: center;
+}
+.forgot_password{
+    font-family: 'Avenir Next', sans-serif;
+    font-size: 12px !important;
+    font-weight: 600 !important;
+    line-height: 16.39px;
+    letter-spacing: 0.1em;
+    text-align: right;
+    color: #39CDCC !important;
+    width: 147px;
+    height: 17px;
+    opacity: 0px;
+    margin-top: 18px !important;
+}
+.button{
+    font-family: 'Avenir Next', sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 19.12px;
+    letter-spacing: 0.1em;
+    text-align: center;
+    background: #39CDCC;
+    border-radius: 8px;
+    width: 469px;
+    padding: 10px;
+    border-style: none;
+    color:#FFFFFF;
+    margin-top: 10px;
+}
